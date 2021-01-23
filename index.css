@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(27, 27, 27);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+button{    
+    display: none;
+}
+.nav1{
+    position: absolute;
+    top: 10%;
+    left:80%;  
+    margin: 0%;  
+    width: 220px;
+}
+.nav1 a{
+    color: aquamarine;
+    text-decoration:none;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.nav2{
+    display: none;
+}
+#geek{
+    position: relative;
+}
+section{
+    column-count: 2;    
+}
+#img{
+    position: relative;
+    margin-left: 150px;
+    width: 70%; 
+}
+section div{
+    transform: translate(-30px,50px);    
+    width: 80%;
+}
+section div h1{
+    color: aquamarine;    
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 13px;
+    text-align: center;
+}
+section div h3{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    word-spacing: 2px;
+    text-align: center;
+}
+section div p{
+    color: white;
+    font-weight: 20;
+    word-spacing: 1.2px; 
+    font-size: medium; 
+    white-space: pre-line;  
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+footer div a{
+    font-size: 35px;
+}
+footer div i{
+    color: aquamarine;
+    margin-bottom: 10px;
+    margin: 10px;    
+    border: aquamarine 2.5px solid;
+    border-radius: 50%;
+    padding: 7px;   
+  
+}
+footer span{
+    color: white;
+    font-size: 20px;    
+    word-spacing: 1.2px;
+} 
+@media only screen and (max-width: 800px)
+{   
+    #geek{
+        position: relative;
+        top: 10px;
+        width: 100px;
+    } 
+    .nav2{
+        position: relative;
+        top: -50px;
+        left: 20%;
+        margin: 0%;  
+        width: 220px;
+    }
+    .nav2 a{
+        color: aquamarine;
+        text-decoration:none;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .nav1{
+        display: none;
+    }
+    button{
+        width: 60px;
+        background-color: rgb(27, 27, 27);
+        border: none;
+        padding: 5px;        
+    }    
+    .menubtn{
+        display: block;
+        font-size: 40px;
+        color: aquamarine;
+        width: 45px;        
+        float: right;
+        transform: translate(-25px,-5px);
+        margin-top: 7%;    
+        cursor: pointer;
+    }    
+    #img{
+        box-sizing: border-box;
+        position: relative; 
+        margin-left: -10px;
+        margin-top: 25px;
+        width: 100%;
+        padding: 2%;
+        
+    }
+    section div{
+        position: relative;
+        left: 60px;
+        top:-50px;
+        width: 80%;        
+        padding: 2%;
+        margin: 0%;        
+    }
+    section div h1{
+        color: aquamarine;    
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 13px;
+    }
+    section div h3{
+        color: white;
+        font-weight: 300;
+        font-size: 25px;
+        word-spacing: 2px;
+    }
+    section div p{
+        color: white;
+        font-weight: 20;
+        word-spacing: 1.2px; 
+        font-size: medium;
+        white-space: inherit;   
+    }
+    section{
+        column-count: unset;
+    }
+    footer {
+        width: 90%;
+        position: relative;
+        top: 30px;
+        left: 10px;
+        text-align: center;
+        padding-bottom: 30px;
+        margin: 0%;
+    }
+    footer div{
+        font-size: 33px;
+        padding-bottom: 15px;
+    }
+    footer span{
+        color: white;
+        font-weight: 200;
+        font-size: 18px;
+        word-spacing: 1.2px;
+    }  
+}
